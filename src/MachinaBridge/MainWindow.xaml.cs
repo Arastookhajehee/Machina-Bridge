@@ -588,6 +588,18 @@ namespace MachinaBridge
             {
                 string[] instructions = Machina.Utilities.Parsing.SplitStatements(code, ';', "//");
 
+                bool hasSyncCurrent = instructions.Any(ins =>
+                {
+                    string[] parsed = Machina.Utilities.Parsing.ParseStatement(ins);
+                    return parsed != null && parsed.Length > 0 && parsed[0] == "SyncCurrent";
+                });
+
+                if (hasSyncCurrent && instructions.Length > 1)
+                {
+                    Logger.Error("SyncCurrent() must be sent alone in its own batch.");
+                    return;
+                }
+
                 foreach (var ins in instructions)
                 {
                     ExecuteStatement(ins);

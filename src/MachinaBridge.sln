@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11806.211 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaBridge", "MachinaBridge\MachinaBridge.csproj", "{B0FF475C-DA83-4F44-BE01-EBA40E639C7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machina", "..\..\Machina.NET\src\Machina\Machina.csproj", "{15951838-F9D6-4988-A103-B7C72BFE81A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaGrasshopper", "..\..\Machina-Grasshopper\src\MachinaGrasshopper\MachinaGrasshopper.csproj", "{855276EF-2C05-0C23-64CA-411A35DFDAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,22 @@ Global
 		{15951838-F9D6-4988-A103-B7C72BFE81A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15951838-F9D6-4988-A103-B7C72BFE81A2}.Release|x64.ActiveCfg = Release|x64
 		{15951838-F9D6-4988-A103-B7C72BFE81A2}.Release|x64.Build.0 = Release|x64
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug|x64.Build.0 = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug32|Any CPU.ActiveCfg = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug32|Any CPU.Build.0 = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug32|x64.ActiveCfg = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug32|x64.Build.0 = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug64|Any CPU.ActiveCfg = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug64|Any CPU.Build.0 = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug64|x64.ActiveCfg = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Debug64|x64.Build.0 = Debug|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Release|x64.ActiveCfg = Release|Any CPU
+		{855276EF-2C05-0C23-64CA-411A35DFDAE0}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
